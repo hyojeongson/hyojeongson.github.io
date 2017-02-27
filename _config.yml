@@ -1,76 +1,36 @@
-# Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://taylantatli.github.io/Moon
+# lucas gatsas Theme/Blog - Jekyll Theme
+# the glas theme: https://github.com/SpaceG/glas
+# Author: LucasGatsas
+# Theme: glas
+# Source: https://github.com/spaceg/glas
+# Mail: space@lucasgatsas.ch
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+# Site settings
+title: Lucas Gatsas
+#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
+event_label: Events
 
-# Comments
-disqus_shortname:   taylantatli
+description: > # "
+  Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.lucasgatsas.ch" # the base hostname & protocol for your site
 
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+#These settings might be able to go?
+author: Lucas Gatsas
+twitter_username: lucasgatsas
+github_username:  spaceg
+company_name: lucasgatsas
 
-jekyll-mentions:
-    base_url: https://github.com
+# Build settings
+markdown: kramdown
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+#Have to show future posts for future events.
+future: true
+
+permalink: /event/:title.html
