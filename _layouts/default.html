@@ -3,28 +3,31 @@
 
   {% include head.html %}
 
-<body class="home-template">
-  <div id="page" class="site">
+  <body>
 
+    {% include sidebar.html %}
+      
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+      
+    <!-- Bootstrap Core JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    {% include header.html %}
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-
-            <div class="overlay"></div>
-  </div><!-- #page -->  
-
-
+    <script src="{{ site.baseurl }}/js/index.js"></script>
 
   </body>
+
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    
+    <script>
+    $(document).ready(function(){
+    $('#page-content-wrapper').fadeIn();
+    });
+    </script>
 
 </html>
