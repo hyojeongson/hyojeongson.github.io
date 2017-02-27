@@ -1,35 +1,14 @@
-# taken
+# Type Theme
 
-Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
+![Default Type Theme blog](https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png)
 
-![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
+A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
 
-## Updates
+## Get Started
 
-Note: There's a stable branch (v1.0) which includes the default taken theme.
-Master and gh-pages branch now include the latest changes:
+[Demo](https://rohanchandra.github.io/type-theme/)
 
-* Better responsive support ( sidebar collapse)
-* Fade in animations
+[Using Type](https://rohanchandra.github.io/project/type/)
 
-
-## Features
-* Flickr feed
-* Disqus
-* more ...
-
-## Demo
-You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
-
-## Instructions
-
-1. Fork this repository
-2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
-3. Run it.<br />`jekyll serve`
-4. Go to http://127.0.0.1:4000.
-
-## To do list:
-* Categories support
-* Add portfolio section
-* Flickr plugin animation and configuration
-* More...
+## License
+The MIT License (MIT)
