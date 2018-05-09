@@ -1,8 +1,6 @@
 ---
 layout: page
 title: about
-permalink: /about/
-feature-img: "img/06.png"
 ---
 
 손 효 정 (sonhyojeong)
