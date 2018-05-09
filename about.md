@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I'm Hyojeong son, a Front-End Engineer at heybeauty.
+title: about 
 ---
 
 손 효 정 (sonhyojeong)
