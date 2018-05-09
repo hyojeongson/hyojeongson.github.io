@@ -1,10 +1,11 @@
 ---
 layout: page
-title: 
+title: about
 permalink: /about/
 feature-img: "img/06.png"
 ---
 
+손 효 정 (sonhyojeong)
 Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
 Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
